@@ -41,7 +41,7 @@ export default() => {
               <a href="https://adventureUs.tech"
                  target="_blank"
                  className="font-link">adventureUs</a>
-                 <p>Grace Hopper Capstone project, develped with 3 other software engineers</p>
+                 <p>Grace Hopper Capstone project, developed with 3 other software engineers</p>
             </td>
           </tr>
           <tr>

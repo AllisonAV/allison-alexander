@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Navbar from './Navbar'
 import About from './About'
 import Home from './Home'
+import Skills from './Skills'
 import Projects from './Projects'
 
 export default class Allison extends Component {
@@ -19,6 +20,9 @@ export default class Allison extends Component {
         </section>
         <section className="content" id="about">
           <About />
+        </section>
+        <section className="content" id="skills">
+          <Skills />
         </section>
         <section className="well top container content" id="projects">
           <Projects />
