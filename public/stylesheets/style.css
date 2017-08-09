@@ -126,7 +126,7 @@ section.content {
 }
 
 #skills {
-  background: #FFFFFF url("/code-screenshot.png") no-repeat center center fixed;
+  background: #272b30 url("/code-screenshot.png") no-repeat center center fixed;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
