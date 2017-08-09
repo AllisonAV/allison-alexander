@@ -8,16 +8,9 @@ export default() => {
     </div>
     <div className="flex-container-home">
       <div className="well well-sm">
-        <a href="mailto:allison.alexander0707@gmail.com?subject=Mail from allisonalexander.com">
+        <a href="mailto:allison.alexander07070@gmail.com?subject=Mail from allisonalexander.com">
           <img className="img-contact"
                src="gmail.png"/>
-        </a>
-      </div>
-      <div className="well well-sm">
-        <a href="https://stackoverflow.com/users/8132131/allison-alexander?tab=profile"
-           target="_blank">
-          <img className="img-contact"
-               src="so-icon.svg"/>
         </a>
       </div>
       <div className="well well-sm">
@@ -25,6 +18,13 @@ export default() => {
            target="_blank">
            <img className="img-contact-linkedin"
                 src="linked-in.png"/>
+        </a>
+      </div>
+      <div className="well well-sm">
+        <a href="https://stackoverflow.com/users/8132131/allison-alexander?tab=profile"
+           target="_blank">
+          <img className="img-contact"
+               src="so-icon.svg"/>
         </a>
       </div>
       <div className="well well-sm">
