@@ -8,14 +8,10 @@ import NotFound from './components/NotFound'
 
 import firebase from 'APP/fire'
 
-import Demos from 'APP/demos'
-
 // Get the auth API from Firebase.
-const auth = firebase.auth()
 
 // Ensure that we have (almost) always have a user ID, by creating
 // an anonymous user if nobody is signed in.
-auth.onAuthStateChanged(user => user || auth.signInAnonymously())
 
 // Further explanation:
 //
@@ -39,7 +35,6 @@ auth.onAuthStateChanged(user => user || auth.signInAnonymously())
 
 // Our root App component just renders a little frame with a nav
 // and whatever children the router gave us.
-
 
 render(
   <Router history={browserHistory}>
