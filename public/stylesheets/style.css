@@ -126,11 +126,11 @@ section.content {
 }
 
 #skills {
-  background: #272b30 url("/code-screenshot.png") no-repeat center center fixed;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
- background-size: 100% auto;
+  background: #ffffff url("/code-screenshot.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
 }
 
 .center-text {
