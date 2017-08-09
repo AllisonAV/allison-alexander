@@ -69,6 +69,12 @@ section.content {
   justify-content: space-around;
 }
 
+.flex-container-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .flex-container-left {
   display: flex;
   justify-content: flex-start;
@@ -83,8 +89,9 @@ section.content {
   width: 25%;
   padding: 2%;
   margin: 2% 4%;
-  background-color: #1c1e22;
+  background-color: cyan;
   text-align: center;
+  color: black;
   border-radius: 35px;
 }
 

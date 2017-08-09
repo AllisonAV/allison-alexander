@@ -1,9 +1,9 @@
 import React from 'react'
 export default () => {
   return (
-    <div className="flex-container-about">
+    <div className="flex-container-skills">
       <div className="flex-item-about">
-        <h3 className="well center-text font skills">Skills</h3>
+      <h3 className="well center-text font skills">Skills</h3>
         <div className="flex-container-home">
           <div className="flex-item-skills">JavaScript</div>
           <div className="flex-item-skills">Node.js</div>
