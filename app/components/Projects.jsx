@@ -84,7 +84,8 @@ export default() => {
           </tr>
         </tbody>
         </table>
-
+        <br/>
+        <br/>
   </div>
 
   )

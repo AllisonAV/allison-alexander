@@ -34,6 +34,10 @@ export default () => {
             Please view my resume!
             </a>
           </div>
+          <br/>
+          <div className="flex-item-col font">
+            <p>allison.alexander07070@gmail.com</p>
+          </div>
       </div>
       <div className="well flex-item-about">
         <img src="allison in hoboken.jpg"/>
