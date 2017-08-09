@@ -1,6 +1,7 @@
 {
   "projects": {
     "allison-alexander": "allison-alexander",
-    "default": "allison-alexander"
+    "default": "allison-alexander",
+    "staging": "allison-alexander"
   }
 }
