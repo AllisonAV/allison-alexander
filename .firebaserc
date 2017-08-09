@@ -1,5 +1,6 @@
 {
   "projects": {
-    "firebones": "firebones-6bc2a"
+    "allison-alexander": "allison-alexander",
+    "default": "allison-alexander"
   }
 }

@@ -3,7 +3,7 @@ import React from 'react'
 import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
 import {render} from 'react-dom'
 
-import WhoAmI from './components/WhoAmI'
+import Allison from './components/Allison'
 import NotFound from './components/NotFound'
 
 import firebase from 'APP/fire'
@@ -39,24 +39,11 @@ auth.onAuthStateChanged(user => user || auth.signInAnonymously())
 
 // Our root App component just renders a little frame with a nav
 // and whatever children the router gave us.
-const App = ({children}) =>
-  <div>
-    <nav>
-      {/* WhoAmI takes a firebase auth API and renders either a
-          greeting and a logout button, or sign in buttons, depending
-          on if anyone's logged in */}
-      <WhoAmI auth={auth}/>
-    </nav>
-    {/* Render our children (whatever the router gives us) */}
-    {children}
-  </div>
+
 
 render(
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <IndexRedirect to="demos"/>
-      {Demos /* Put all the demos and a description page at /demos */}
-    </Route>
+    <Route path="/" component={Allison}/>
     <Route path='*' component={NotFound}/>
   </Router>,
   document.getElementById('main')

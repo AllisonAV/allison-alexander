@@ -1,7 +1,7 @@
 {
-  "name": "__BONES_NEEDS_A_NAME__",
+  "name": "allison-alexander",
   "version": "0.0.1",
-  "description": "A happy little burning skeleton.",
+  "description": "Allison's personal web site",
   "main": "index.js",
   "engines": {
     "node": ">= 7.0.0"
@@ -32,12 +32,12 @@
     "redux",
     "skeleton"
   ],
-  "author": "Ashi Krishnan <me@ashi.works>",
+  "author": "Allison Alexander <allison.alexander07070@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queerviolet/bones/issues"
+    "url": "https://github.com/allisonAV/allison-alexander/issues"
   },
-  "homepage": "https://github.com/queerviolet/bones#readme",
+  "homepage": "https://github.com/allisonAV/allison-alexander#readme",
   "dependencies": {
     "axios": "^0.15.2",
     "babel-preset-stage-2": "^6.18.0",
