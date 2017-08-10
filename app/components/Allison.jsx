@@ -24,7 +24,7 @@ export default class Allison extends Component {
         <section className="content" id="skills">
           <Skills />
         </section>
-        <section className="well top container content" id="projects">
+        <section className="top container content" id="projects">
           <Projects />
         </section>
       </div>
