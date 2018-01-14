@@ -74,6 +74,10 @@ section.content {
   justify-content: space-around;
 }
 
+.container-skills {
+  width: 50%;
+}
+
 
 .flex-container-left {
   display: flex;
@@ -86,9 +90,21 @@ section.content {
 }
 
 .flex-item-skills {
-  width: 25%;
-  padding: 2%;
-  margin: 2% 4%;
+  width: 20%;
+  height: 15%;
+  padding: 2% 2%;
+  margin: 2%;
+  background-color: cyan;
+  text-align: center;
+  color: black;
+  border-radius: 35px;
+}
+
+.flex-item-skills-bottom {
+  width: 28%;
+  height: 15%;
+  padding: 2% 2%;
+  margin: 2%;
   background-color: cyan;
   text-align: center;
   color: black;
