@@ -4,7 +4,7 @@ export default() => {
   return (
   <div>
     <div className="well">
-      <h3 className="center-text font">Full Stack Software Engineer transitioned from Mainframe/Midrange Developer</h3>
+      <h3 className="center-text font">Full Stack Software Engineer</h3>
     </div>
     <div className="flex-container-home">
       <div className="well well-sm">

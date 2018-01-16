@@ -28,6 +28,12 @@ export default () => {
                 as a full stack developer!
           </div>
           <br/>
+          <div className="flex-item-col font"> My current position, as a backend
+                engineer, at Grovo is being moved to San Francisco, therefore,
+                I am currently looking for a new position in the
+                greater New York City area.
+          </div>
+          <br/>
           <div className="flex-item-col font">
             <a href="https://docs.google.com/document/d/1kjKBbR1lA3fPZljm9jUDXntesqhqrSQJqk9fyKhzN-w/edit?usp=sharing"
                target="_blank">
