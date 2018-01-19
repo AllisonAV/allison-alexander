@@ -1,2 +1,2 @@
 
-Allison Alexander's person website created using React.js
+Allison Alexander's person website created using JavaScript & React.js
